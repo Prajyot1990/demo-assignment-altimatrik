@@ -1,0 +1,128 @@
+{
+	"id": "9f2b8209-b1da-ac84-fe19-db47515ae939",
+	"name": "Altimatrik_assignment",
+	"description": "",
+	"order": [
+		"cd83b81f-82e8-980a-34fa-c35d40afc46e",
+		"4da24e92-443c-c6ee-02c4-b340c19e8659",
+		"a8baf2f0-c3db-e35f-f123-24ccabb50d36"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1612950226708,
+	"owner": "14513569",
+	"public": false,
+	"requests": [
+		{
+			"id": "4da24e92-443c-c6ee-02c4-b340c19e8659",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbHRpbWF0cmlrIiwiZXhwIjoxNjEyOTY3MDI0LCJpYXQiOjE2MTI5NDkwMjR9.RWRhH2_FgoJ9TDRZnMPBHyXttYvMmn4eNTIeP5CT3_lJ7TBOKO3SA5AAaTn-p4x-njxl8m9KZ71bZMrbB68elw\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbHRpbWF0cmlrIiwiZXhwIjoxNjEyOTY3MDI0LCJpYXQiOjE2MTI5NDkwMjR9.RWRhH2_FgoJ9TDRZnMPBHyXttYvMmn4eNTIeP5CT3_lJ7TBOKO3SA5AAaTn-p4x-njxl8m9KZ71bZMrbB68elw",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/task/saveTask",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9f2b8209-b1da-ac84-fe19-db47515ae939",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Save_Task",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1612950323776,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"channel\":\"1\",\n\t\"conversationId\":\"2\",\n\t\"country\":\"3\",\n\t\"requestEnch\":{\n\t\t\"blob\":\"shZFMZBaBkBPV44imVsw1hGHypevIiXnDjP1eRzH785bIEoEBxYOQHzQjq0VfgC74mUKVNvpPZNINIp5t3QpZF/Z9R2+vT7jKIKMh25P1bAAdw0eMuImGv+o57U9ekJp8iJZB96T5iXOAKxd/Sa7wFmUbiLXAqbV6DUYFYqL3VGp5TbCM3f5wTOVJnghWmrxkYw6rdypfj47KKoXY6tNS8u6IfPDQo8VKiuww5UkowKxERK7lHfCIYT+hImq6i+f\",\n\t\t\"type\":\"new\"\n\t}\n}"
+		},
+		{
+			"id": "a8baf2f0-c3db-e35f-f123-24ccabb50d36",
+			"headers": "Content-Type: application/json\nTokenGen: Generate\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "TokenGen",
+					"value": "Generate",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/authenticate",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9f2b8209-b1da-ac84-fe19-db47515ae939",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Authenticate",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1612950348888,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"username\":\"altimatrik\",\n\t\"password\":\"Date\"\n}"
+		},
+		{
+			"id": "cd83b81f-82e8-980a-34fa-c35d40afc46e",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbHRpbWF0cmlrIiwiZXhwIjoxNjEyOTY3MDI0LCJpYXQiOjE2MTI5NDkwMjR9.RWRhH2_FgoJ9TDRZnMPBHyXttYvMmn4eNTIeP5CT3_lJ7TBOKO3SA5AAaTn-p4x-njxl8m9KZ71bZMrbB68elw\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbHRpbWF0cmlrIiwiZXhwIjoxNjEyOTY3MDI0LCJpYXQiOjE2MTI5NDkwMjR9.RWRhH2_FgoJ9TDRZnMPBHyXttYvMmn4eNTIeP5CT3_lJ7TBOKO3SA5AAaTn-p4x-njxl8m9KZ71bZMrbB68elw",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/task/updateTask",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "9f2b8209-b1da-ac84-fe19-db47515ae939",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Task_update",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1612950259646,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n    \"created_at\": \"2021-02-10T07:58:59.376+00:00\",\n    \"expiring_at\": \"2021-02-25T07:58:59.376+00:00\",\n    \"type\": \"Interview Assignment\",\n    \"updated_at\": null,\n    \"task_token\": 1\n}"
+		}
+	]
+}
